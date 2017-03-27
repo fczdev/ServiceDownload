@@ -20,11 +20,11 @@ import org.xml.sax.helpers.DefaultHandler;
 public class MainActivity extends AppCompatActivity {
 
     private DownloadService.DownloadBinder downloadBinder;
-
+    //开始下载
     public Button startDownload;
-
+    //暂停下载
     public Button pauseDownload;
-
+    //取消下载
     public Button cancelDownload;
 
     private ServiceConnection connection = new ServiceConnection() {
