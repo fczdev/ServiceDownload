@@ -15,8 +15,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import org.xml.sax.helpers.DefaultHandler;
-
 public class MainActivity extends AppCompatActivity {
 
     private DownloadService.DownloadBinder downloadBinder;
