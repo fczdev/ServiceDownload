@@ -4,7 +4,6 @@ import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.os.Binder;
@@ -12,10 +11,7 @@ import android.os.Environment;
 import android.os.IBinder;
 import android.support.v4.app.NotificationCompat;
 import android.widget.Toast;
-
 import java.io.File;
-
-import javax.net.ssl.SSLSessionBindingEvent;
 
 public class DownloadService extends Service {
 
